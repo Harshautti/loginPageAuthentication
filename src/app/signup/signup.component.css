@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(196, 174, 207);
+}
+.form-group{
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+}
+.btn{
+    margin-right: 40%;
+}
+.card{
+    width:350px !important;
+    background-color: rgb(155, 115, 194);
+}

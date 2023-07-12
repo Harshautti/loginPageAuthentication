@@ -1,0 +1,16 @@
+<div class="container-fluid">
+       <div class="card w-50">
+        <form action="" [formGroup]="regForm">
+            <div class="form-group ">
+              <label for="uname">Username</label>
+              <input type="text" name="uname" formControlName="uname"  class="form-control">
+              <label for="pwd">Password</label>
+            <input type="password" name="pwd" formControlName="pwd"  class="form-control">
+            <div>
+              <button type="button" (click)="login()" class="btn btn-primary">Login</button>
+              <a routerLink="/signup">Sign Up</a>
+            </div>
+            </div>
+          </form>
+       </div>
+</div>
